@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import Entrance from './components/Entrance';
 import Panel from './components/Panel';
 import BottomWrap from './components/BottomWrap';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Bottom>
         <BottomWrap />
       </Bottom>
+      <Analytics />
     </Container>
   );
 }
