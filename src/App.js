@@ -7,7 +7,7 @@ import BottomWrap from './components/BottomWrap';
 import { Analytics } from '@vercel/analytics/react';
 
 function App() {
-  return (
+  return ( 
     <Container>
       <Top>
         <Entrance />
