@@ -4,7 +4,7 @@ import styled from 'styled-components'
 function Community() {
   return (
     <Container>
-      <a href='https://links.geneva.com/invite/bf9485f2-e7d2-4f49-9217-9a779254916a' target='blank'>
+      <a href='https://links.geneva.com/invite/bf9485f2-e7d2-4f49-9217-9a779254916a' target='_blank'>
       <Wrapper1>Join the Community</Wrapper1>
       <Wrapper2></Wrapper2>
       <Wrapper3></Wrapper3>
