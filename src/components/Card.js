@@ -27,6 +27,16 @@ const Container = styled.div`
   height: 400px; 
   width: 400px;
   background: transparent;
+  @media(max-width: 835px) {
+    width: 95%;
+  }
+  @media(max-width: 684px) {
+    margin-top: 80px;
+    width: 60%;
+  }
+  @media(max-width: 493px) {
+    width: 290px;
+  }
 `;
 
 const Wrapper1 = styled.div`
@@ -66,6 +76,9 @@ const Name = styled.text`
   font-weight: 100; 
   color: #FFFFFF;
   margin-left: 20px;
+  @media(max-width: 684px) {
+    font-size: 30px;
+  }
 `;
 
 const Body = styled.div`
@@ -97,6 +110,9 @@ const Wrap = styled.div`
   font-size: 30px;
   border-radius: 100px;
   color: #FFFFFF;
+  @media(max-width: 684px) {
+    font-size: 25px;
+  }
 `;
 
 

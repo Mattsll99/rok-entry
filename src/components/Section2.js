@@ -43,6 +43,9 @@ const Title = styled.text`
   font-weight: 200; 
   font-size: 5vw;
   color: #2E2E2E;
+  @media(max-width: 684px) {
+    font-size: 6vw;
+  }
 `;
 
 const SubTitle = styled.text`
@@ -66,6 +69,9 @@ const Wrap = styled.div`
   display: flex; 
   flex-direction: row;
   justify-content: space-between;
+  @media(max-width: 684px) {
+    flex-direction: column;
+  }
 `;
 
 const Left = styled.div`
@@ -80,6 +86,12 @@ const Left = styled.div`
   align-items: center;
   justify-content: center; 
   text-align: center;
+  @media(max-width: 684px) {
+    height: 48%; 
+    width: 100%;
+    padding: 10px;
+    font-size: 5vw;
+  }
 `; 
 
 const Right = styled(Left)``;

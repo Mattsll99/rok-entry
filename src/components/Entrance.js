@@ -32,6 +32,11 @@ const Container = styled.div`
   display: flex; 
   flex-direction: row; 
   border-bottom: solid 2px #2E2E2E;
+  @media(max-width: 684px) {
+    flex-direction: column;
+    height: auto;
+    border-bottom: none;
+  }
 `;
 
 const Left = styled.div`
@@ -40,6 +45,10 @@ const Left = styled.div`
   border-right: solid 2px #2E2E2E;
   display: flex; 
   flex-direction: column;
+  @media(max-width: 684px) {
+    width: 100%;
+    border-right: none;
+  }
 `; 
 
 const Right = styled.div`
@@ -48,6 +57,9 @@ const Right = styled.div`
   display: flex; 
   justify-content: center; 
   align-items: center;
+  @media(max-width: 684px) {
+    width: 100%;
+  }
 `;
 
 const Body = styled.div`
@@ -61,6 +73,11 @@ const Body = styled.div`
   display: flex; 
   justify-content: center; 
   align-items: center;
+  @media(max-width: 684px) {
+    height: 200px;
+    font-size: 6vw;
+    text-align: center;
+  }
 `; 
 
 const Bottom = styled.div`
@@ -68,6 +85,10 @@ const Bottom = styled.div`
   height: 20%;
   display: flex; 
   flex-direction: row; 
+  @media(max-width: 684px) {
+    height: 100px;
+    border-bottom: solid 2px #2E2E2E;
+  }
 `;
 
 const LeftSide = styled.div`
@@ -87,7 +108,6 @@ const RightSide = styled(LeftSide)`
 const LeftButton = styled.div`
   height: 100%; 
   width: 80%;
-  background: red;
   border-radius: 100px;
   display: flex; 
   justify-content: center; 
@@ -97,6 +117,10 @@ const LeftButton = styled.div`
   background: transparent; 
   border: solid 2px #2E2E2E;
   cursor: pointer;
+  @media(max-width: 684px) {
+    font-size: 3.8vw;
+    padding: 3px;
+  }
 `;
 
 const RightButton  = styled(LeftButton)`

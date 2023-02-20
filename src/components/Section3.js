@@ -28,6 +28,9 @@ const Title = styled.text`
   font-weight: 200; 
   font-size: 4vw; 
   color: #FFFFFF;
+  @media(max-width: 684px) {
+    font-size: 6vw;
+  }
 `; 
 
 const Button = styled.div`
