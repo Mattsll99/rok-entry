@@ -1,21 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
 import styled from 'styled-components'
-import Entrance from './components/Entrance';
-import Panel from './components/Panel';
-import BottomWrap from './components/BottomWrap';
 import { Analytics } from '@vercel/analytics/react';
+import Header from './components/Header';
+import Entrance from './components/Entrance';
+import Section1 from './components/Section1';
+import Section2 from './components/Section2';
+import Section3 from './components/Section3';
 
 function App() {
   return ( 
     <Container>
-      <Top>
-        <Entrance />
-        <Panel />
-      </Top>
-      <Bottom>
-        <BottomWrap />
-      </Bottom>
+      <Header />
+      <Entrance />
+      <Section1 />
+      <Section2 />
+      <Section3 />
       <Analytics />
     </Container>
   );
@@ -28,26 +28,4 @@ const Container = styled.div`
   height:auto;
   display: flex; 
   flex-direction: column;
-  padding: 5px;
-  
 `;
-
-const Top = styled.div`
-  width: 100%; 
-  height: auto; 
-  display: flex; 
-  flex-direction: row;
-  justify-content: space-between;
-  //padding: 5px;
-  @media(max-width: 923px) {
-    flex-direction: column;
-    //justify-content: center;
-    align-items: center;
-  }
-`; 
-
-const Bottom = styled.div`
-  width: 100%; 
-  height: auto;
-  padding: 10px;
-`; 
