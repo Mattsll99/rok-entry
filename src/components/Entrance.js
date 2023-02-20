@@ -9,10 +9,14 @@ function Entrance() {
         <Body>Offer services <br /> Get paid in crypto</Body>
         <Bottom>
           <LeftSide>
+            <Link href='https://twitter.com/ROK_Market' target='_blank'>
             <LeftButton>Updates</LeftButton>
+            </Link>
           </LeftSide>
           <RightSide>
+            <Link href='https://links.geneva.com/invite/bf9485f2-e7d2-4f49-9217-9a779254916a' target='_blank'>
             <RightButton>Join the community</RightButton>
+            </Link>
           </RightSide>
         </Bottom>
       </Left>
@@ -37,6 +41,16 @@ const Container = styled.div`
     height: auto;
     border-bottom: none;
   }
+`;
+
+const Link = styled.a`
+  height: 100%; 
+  width: 100%; 
+  text-decoration: none;
+  color: #2E2E2E; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
 `;
 
 const Left = styled.div`

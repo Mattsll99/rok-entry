@@ -27,8 +27,8 @@ function Section1() {
         </Wrap3>
         <Wrap4>
         <Gig 
-          name="I will right a love song for you"
-          profile="../assets/avatar2.png"
+          name="I will write a love song for you"
+          profile="../assets/avatar1.png"
         />
         </Wrap4>
         <Wrap5>

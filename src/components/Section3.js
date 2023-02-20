@@ -5,7 +5,9 @@ function Section3() {
   return (
     <Container>
       <Title>Come help us decentralize<br />the gig economy</Title>
+      <Link href='https://links.geneva.com/invite/bf9485f2-e7d2-4f49-9217-9a779254916a' target='_blank'>
       <Button>Join the community</Button>
+      </Link>
     </Container>
   )
 }
@@ -22,6 +24,16 @@ const Container = styled.div`
   align-items: center;
   text-align: center;
   padding-top: 150px;
+`;
+
+const Link = styled.a`
+  height: auto; 
+  width: auto; 
+  text-decoration: none;
+  color: #2E2E2E; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
 `;
 
 const Title = styled.text`

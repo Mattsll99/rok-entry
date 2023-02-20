@@ -8,7 +8,7 @@ function Section2() {
         <Title>Charge Less, Earn More</Title>
         <Wrap>
           <Left>No intermediary between you and your customers</Left>
-          <Right>Almost no fee</Right>
+          <Right>Almost no fees</Right>
         </Wrap>
       </Wrapper>
     </Container>
