@@ -26,6 +26,9 @@ const Container = styled.div`
   justify-content: center; 
   align-items: center;
   padding: 30px;
+  @media(max-width: 475px) {
+    padding-top: 100px;
+  }
 `;
 
 const Wrapper = styled.div`
