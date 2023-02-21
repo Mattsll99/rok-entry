@@ -11,7 +11,7 @@ function Section2Bis() {
       </Wrapper>
       <Wrapper2>
         <Title>Get rid of searching for clients</Title>
-        <SubTitle>We are building a fair system to help you find customers based on the quality of your work, and nothing else</SubTitle>
+        <SubTitle>We are building a fair system to help you find customers based on the quality of your services, and nothing else</SubTitle>
       </Wrapper2>
     </Container>
   )
@@ -71,6 +71,9 @@ const Title = styled.text`
   @media(max-width: 684px) {
     font-size: 4vw;
   }
+  @media(max-width: 376px) {
+    font-size: 6vw;
+  }
 `; 
 
 const SubTitle = styled.text`
@@ -84,5 +87,8 @@ const SubTitle = styled.text`
   }
   @media(max-width: 684px) {
     font-size: 3.8vw;
+  }
+  @media(max-width: 376px) {
+    font-size: 4.3vw;
   }
 `;
