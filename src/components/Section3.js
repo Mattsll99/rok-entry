@@ -77,7 +77,7 @@ const Wrapper = styled.div`
   align-items: center;
   //font-size: 1.5vw; 
   font-size: 20px;
-  font-weight: 400; 
+  font-weight: 300; 
   color: #2E2E2E;
   @media(max-width: 420px) {
     font-size: 5vw;
