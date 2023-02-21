@@ -5,8 +5,10 @@ function Section3() {
   return (
     <Container>
       <Title>Come help us decentralize<br />the gig economy</Title>
-      <Link href='https://links.geneva.com/invite/bf9485f2-e7d2-4f49-9217-9a779254916a' target='_blank'>
-      <Button>Join the community</Button>
+      <Link href='https://twitter.com/ROK_Market' target='_blank'>
+      <Button>
+        <Wrapper>Join ROK public development</Wrapper>
+      </Button>
       </Link>
     </Container>
   )
@@ -46,9 +48,9 @@ const Title = styled.text`
 `; 
 
 const Button = styled.div`
-  height: 80px; 
-  width: 280px;
-  background: #DDC34B;
+  height: 90px; 
+  width: 390px;
+  background: #CDC6BE;
   margin-top: 80px;
   border-radius: 200px;
   display: flex; 
@@ -57,5 +59,21 @@ const Button = styled.div`
   font-weight: 300; 
   font-size: 22px;
   color: #2E2E2E;
+  padding: 10px; 
   cursor: pointer;
 `;
+
+const Wrapper = styled.div`
+  height: 100%; 
+  width: 100%;
+  background: #DDC34B; 
+  border: solid 2px #2E2E2E;
+  border-radius: 100px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  //font-size: 1.5vw; 
+  font-size: 20px;
+  font-weight: 400; 
+  color: #2E2E2E;
+`; 

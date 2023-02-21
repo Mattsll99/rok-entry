@@ -7,8 +7,14 @@ function Section2() {
       <Wrapper>
         <Title>Charge Less, Earn More</Title>
         <Wrap>
-          <Left>No intermediary between you and your customers</Left>
-          <Right>Almost no fees</Right>
+          <Left>
+            <BigText>20%</BigText>
+            <SubText>Fees on Fiverr</SubText>
+          </Left>
+          <Right>
+            <BigText>3%</BigText>
+            <SubText>Fees on ROK</SubText>
+          </Right>
         </Wrap>
       </Wrapper>
     </Container>
@@ -85,10 +91,12 @@ const Left = styled.div`
   display: flex; 
   color: #FFFFFF; 
   font-weight: 200; 
-  font-size: 3vw;
+  //font-size: 3vw;
   align-items: center;
   justify-content: center; 
-  text-align: center;
+  //text-align: center;
+  display: flex; 
+  flex-direction: column;
   @media(max-width: 684px) {
     height: 48%; 
     width: 100%;
@@ -98,3 +106,16 @@ const Left = styled.div`
 `; 
 
 const Right = styled(Left)``;
+
+const BigText = styled.text`
+  font-weight:300; 
+  //font-size: 50px; 
+  font-size: 9vw;
+  color: #FFFFFF;
+`;
+
+const SubText = styled.text`
+  font-weight: 300; 
+  font-size: 3vw;
+  color: #6F6F6F;
+`;
