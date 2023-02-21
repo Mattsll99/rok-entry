@@ -10,14 +10,11 @@ function Entrance() {
         <Bottom>
           <LeftSide>
             <Link href='https://twitter.com/ROK_Market' target='_blank'>
-            <LeftButton>Updates</LeftButton>
+            <LeftButton>
+              <Wrapper>See ROK development</Wrapper>
+            </LeftButton>
             </Link>
           </LeftSide>
-          <RightSide>
-            <Link href='https://links.geneva.com/invite/bf9485f2-e7d2-4f49-9217-9a779254916a' target='_blank'>
-            <RightButton>Join the community</RightButton>
-            </Link>
-          </RightSide>
         </Bottom>
       </Left>
       <Right>
@@ -107,21 +104,18 @@ const Bottom = styled.div`
 
 const LeftSide = styled.div`
   height: 100%; 
-  width: 50%; 
-  border-right: solid 2px #2E2E2E;
+  width: 100%; 
+  //border-right: solid 2px #2E2E2E;
   display: flex; 
   justify-content: center; 
   align-items: center;
   padding: 10px;
 `; 
 
-const RightSide = styled(LeftSide)`
-  border: none;
-`;
-
 const LeftButton = styled.div`
   height: 100%; 
-  width: 80%;
+  //width: 80%;
+  width: auto;
   border-radius: 100px;
   display: flex; 
   justify-content: center; 
@@ -130,6 +124,7 @@ const LeftButton = styled.div`
   font-size: 1.8vw;
   background: transparent; 
   border: solid 2px #2E2E2E;
+  padding: 10px;
   cursor: pointer;
   @media(max-width: 684px) {
     font-size: 3.8vw;
@@ -137,7 +132,15 @@ const LeftButton = styled.div`
   }
 `;
 
-const RightButton  = styled(LeftButton)`
-  background: #DDCE4B;
-  width: 100%;
+const Wrapper = styled.div`
+  height: 100%; 
+  width: 100%; 
+  border: solid 2px #2E2E2E; 
+  background: #DDC34B;
+  border-radius: 100px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  font-weight: 300;
+  padding: 20px;
 `;
