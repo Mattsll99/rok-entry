@@ -50,6 +50,10 @@ const Wrapper = styled.div`
   padding: 20px;
   align-items: center;
   text-align: center;
+  @media(max-width: 684px) {
+    width: 70%;
+    padding: 10px;
+  }
 `; 
 
 const Wrapper2 = styled(Wrapper)`
@@ -61,6 +65,12 @@ const Title = styled.text`
   font-size: 30px;
   font-weight: 300;
   color: #FFFFFF;
+  @media(max-width: 988px) {
+    font-size: 3vw;
+  }
+  @media(max-width: 684px) {
+    font-size: 4vw;
+  }
 `; 
 
 const SubTitle = styled.text`
@@ -69,4 +79,10 @@ const SubTitle = styled.text`
   font-weight: 200; 
   margin-top: 20px;
   color: #898989;
+  @media(max-width: 988px) {
+    font-size: 2.3vw;
+  }
+  @media(max-width: 684px) {
+    font-size: 3.8vw;
+  }
 `;

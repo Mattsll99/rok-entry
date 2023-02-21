@@ -61,6 +61,9 @@ const Button = styled.div`
   color: #2E2E2E;
   padding: 10px; 
   cursor: pointer;
+  @media(max-width: 420px) {
+    width: 90vw;
+  }
 `;
 
 const Wrapper = styled.div`
@@ -76,4 +79,7 @@ const Wrapper = styled.div`
   font-size: 20px;
   font-weight: 400; 
   color: #2E2E2E;
+  @media(max-width: 420px) {
+    font-size: 5vw;
+  }
 `; 
