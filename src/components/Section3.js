@@ -5,11 +5,14 @@ function Section3() {
   return (
     <Container>
       <Title>Come help us decentralize<br />the gig economy</Title>
-      <Link href='https://twitter.com/ROK_Market' target='_blank'>
+      <Handle>Your are one click away from <br />being part of ROK development</Handle>
+     
       <Button>
+      <Link href='https://twitter.com/ROK_Market' target='_blank'>
         <Wrapper>Join ROK public development</Wrapper>
+        </Link>
       </Button>
-      </Link>
+      
     </Container>
   )
 }
@@ -18,7 +21,7 @@ export default Section3
 
 const Container = styled.div`
   width: 100%; 
-  height: 500px;
+  height: 550px;
   background: #1C1C1C;
   display: flex; 
   flex-direction: column;
@@ -28,9 +31,15 @@ const Container = styled.div`
   padding-top: 150px;
 `;
 
+const Handle = styled.text`
+  color: #FFFFFF;
+  font-weight: 200;
+  margin-top: 60px;
+`;
+
 const Link = styled.a`
-  height: auto; 
-  width: auto; 
+  height: 100%; 
+  width: 100%; 
   text-decoration: none;
   color: #2E2E2E; 
   display: flex;
@@ -51,7 +60,7 @@ const Button = styled.div`
   height: 90px; 
   width: 390px;
   background: #CDC6BE;
-  margin-top: 80px;
+  margin-top: 10px;
   border-radius: 200px;
   display: flex; 
   justify-content: center;

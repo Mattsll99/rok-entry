@@ -14,6 +14,7 @@ function Entrance() {
               <Wrapper>See ROK development</Wrapper>
             </LeftButton>
             </Link>
+            <Handle>One click and that's it</Handle>
           </LeftSide>
         </Bottom>
       </Left>
@@ -27,7 +28,7 @@ function Entrance() {
 export default Entrance
 
 const Container = styled.div`
-  height: 500px; 
+  height: 550px; 
   width: 100%; 
   margin-top: 80px;
   display: flex; 
@@ -38,6 +39,11 @@ const Container = styled.div`
     height: auto;
     border-bottom: none;
   }
+`;
+
+const Handle = styled.text`
+  font-size: 14px;
+  font-weight: 300;
 `;
 
 const Link = styled.a`
@@ -110,10 +116,12 @@ const LeftSide = styled.div`
   justify-content: center; 
   align-items: center;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
 `; 
 
 const LeftButton = styled.div`
-  height: 100%; 
+  height: 70px; 
   //width: 80%;
   width: auto;
   border-radius: 100px;
