@@ -10,7 +10,7 @@ function Section2Bis() {
         <SubTitle>ROK makes your life easier, from finding clients, to getting paid well</SubTitle>
       </Wrapper>
       <Wrapper2>
-        <Title>Get rid of searching for clients</Title>
+        <Title>Get rid of looking for clients</Title>
         <SubTitle>We are building a fair system to help you find customers based on the quality of your services, and nothing else</SubTitle>
       </Wrapper2>
     </Container>
